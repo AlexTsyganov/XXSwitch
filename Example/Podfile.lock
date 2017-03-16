@@ -1,0 +1,16 @@
+PODS:
+  - XXSwitch (0.1.0)
+
+DEPENDENCIES:
+  - XXSwitch (from `../`)
+
+EXTERNAL SOURCES:
+  XXSwitch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XXSwitch: ed0842196de1143b8926fd4f874d0fa2e3c4061a
+
+PODFILE CHECKSUM: d5778366d882dd0ccbb8621c5ca1e0a0eda47d7a
+
+COCOAPODS: 1.2.0

@@ -30,7 +30,7 @@
 /* Begin PBXFileReference section */
 		0FD9F82B09386A3DFAB3E580 /* Pods_XXSwitch_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXSwitch_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		28083F9430E5D286F6B67D54 /* Pods-XXSwitch_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXSwitch_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXSwitch_Tests/Pods-XXSwitch_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		2D117F8A7CED3B2B93232385 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2D117F8A7CED3B2B93232385 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		41593614FC97119F62571828 /* Pods-XXSwitch_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXSwitch_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XXSwitch_Example/Pods-XXSwitch_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		45DAFC830A66B8E2202DEEC7 /* Pods-XXSwitch_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXSwitch_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXSwitch_Tests/Pods-XXSwitch_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* XXSwitch_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXSwitch_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -45,8 +45,8 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		98AE1E36DD030FB91A1AA6E3 /* Pods_XXSwitch_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XXSwitch_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BACE796ADED59CED6A7D31B4 /* Pods-XXSwitch_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XXSwitch_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XXSwitch_Example/Pods-XXSwitch_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CC58CC236C80EF044480DF74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		EDE94E201C43FF25D1B02004 /* XXSwitch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XXSwitch.podspec; path = ../XXSwitch.podspec; sourceTree = "<group>"; };
+		CC58CC236C80EF044480DF74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EDE94E201C43FF25D1B02004 /* XXSwitch.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XXSwitch.podspec; path = ../XXSwitch.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -215,10 +215,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = G24E32DPM9;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = G24E32DPM9;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -496,10 +498,12 @@
 			baseConfigurationReference = 41593614FC97119F62571828 /* Pods-XXSwitch_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G24E32DPM9;
 				INFOPLIST_FILE = XXSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.alex.tsyganov.demo.XXSwitch-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -510,10 +514,12 @@
 			baseConfigurationReference = BACE796ADED59CED6A7D31B4 /* Pods-XXSwitch_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G24E32DPM9;
 				INFOPLIST_FILE = XXSwitch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.alex.tsyganov.demo.XXSwitch-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -523,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28083F9430E5D286F6B67D54 /* Pods-XXSwitch_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = G24E32DPM9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +550,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 45DAFC830A66B8E2202DEEC7 /* Pods-XXSwitch_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = G24E32DPM9;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

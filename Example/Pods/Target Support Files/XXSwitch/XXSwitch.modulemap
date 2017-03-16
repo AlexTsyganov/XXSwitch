@@ -1,0 +1,6 @@
+framework module XXSwitch {
+  umbrella header "XXSwitch-umbrella.h"
+
+  export *
+  module * { export * }
+}

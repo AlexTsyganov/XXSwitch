@@ -1,0 +1,22 @@
+{
+  "name": "XXSwitch",
+  "version": "0.1.0",
+  "summary": "A short description of XXSwitch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/AlexTsyganov/XXSwitch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "AlexTsyganov": "alex.tsyganov@brandwidth.com"
+  },
+  "source": {
+    "git": "https://github.com/AlexTsyganov/XXSwitch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XXSwitch/Classes/**/*"
+}
