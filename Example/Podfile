@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XXSwitch_Example' do
+  pod 'XXSwitch', :path => '../'
+
+  target 'XXSwitch_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
